@@ -1,0 +1,108 @@
+* {
+    background: #191d28;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.buttons {
+    /* display: flex; */
+    
+    padding: 20px 40px;
+    margin: 20px;
+    /* justify-content: space-evenly; */
+    
+}
+
+select,
+button {
+    padding: 4px 8px;
+    font-size: 20px;
+    color: white;
+    border-radius: 7%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.currency {
+    background-color: #32323f;
+}
+
+.crypto {
+    background-color: #32323f;
+}
+
+.buy {
+    background-color: #32323f;
+}
+
+option {
+    
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    border: 0;
+    
+}
+
+.lowermiddle {
+    color: gray;
+    font-size: 22px;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstmiddle,
+.secondmiddle,
+.fourthmiddle,
+.fifthmiddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upper {
+    color: #5dc7c2;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.lower {
+    color: gray;
+    font-size: 20px;
+}
+
+.thirdmiddle {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 80px;
+    color: white;
+}
+.endmiddle{
+    color: gray;
+    font-size: 17px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.table{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: gray;
+    font-weight: bold;
+    font-size: 30px;
+}
